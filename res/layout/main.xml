@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView android:id="@+id/CustomMessage" 
+    		  android:layout_width="wrap_content"
+		      android:layout_height="wrap_content" 
+		      android:textStyle="bold"
+		      android:textSize="20px"	
+		      android:textColor="#23cf34"
+		      android:text="Away Message"
+		      android:layout_x="55px" 
+		      android:layout_y="32px">
+	</TextView>
+	
+	<TextView android:id="@+id/label" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:layout_x="35px"
+              android:layout_y="275px"
+              android:text="Optional Custom Message:" />
+
+    <EditText android:id="@+id/customMessage" 
+              android:layout_width="255px"
+			  android:layout_height="wrap_content" 
+			  android:layout_x="35px"  
+              android:layout_y="295px"
+			  />
+	
+	    
+	<TextView android:id="@+id/version"
+			  android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Version 1.0"
+              android:layout_x="55px"  
+              android:layout_y="55px" >
+    </TextView>
+    
+    <TextView android:id="@+id/madeBy"
+			  android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Made by CaptainKrtek and Scary.Alien"
+              android:layout_x="55px"  
+              android:layout_y="72px" >
+    </TextView>
+    
+   
+    
+     <Button android:id="@+id/btn_Enable" 
+     		 android:layout_width="wrap_content"
+		     android:layout_height="wrap_content" 
+		     android:text="Enable Away\nMessage Notification"
+		     android:layout_x="80px" 
+		     android:layout_y="100px">
+	</Button>
+	
+	<Button android:id="@+id/btn_Disable"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:text="Disable Away\nMessage Notification"
+		    android:layout_x="80px" 
+		    android:layout_y="165px">
+	</Button>
+	
+	<Button android:id="@+id/btn_StopAndExit"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:text="Exit App"
+		    android:layout_x="120px" 
+		    android:layout_y="230px">
+	</Button>
+    
+    <TextView android:id="@+id/result"
+			  android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:layout_x="10px"  
+              android:layout_y="370px" >
+    </TextView>
+              
+</AbsoluteLayout>
